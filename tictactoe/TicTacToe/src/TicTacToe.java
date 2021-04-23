@@ -25,6 +25,10 @@ public class TicTacToe {
 				initialiseMap();
 				addPiece(gameBoard, player1.getMove(gameBoard, map), player1);
 				if (player1.checkGameOver()) break;
+				if (boardFull()) {
+					System.out.println("Its a tie! ");
+					break;
+				}
 				initialiseMap();
 				addPiece(gameBoard, player2.getMove(gameBoard, map), player2);
 				if (player2.checkGameOver()) break;

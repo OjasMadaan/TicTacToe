@@ -3,12 +3,10 @@ import java.util.Scanner;
 
 public class HumanPlayer extends Player {
 	
-
 	HumanPlayer(String name, char symbol) {
 		super(name, symbol);
 		System.out.println("Human Player Created || Name = " + name + " || Symbol = " + symbol);
 
-		// TODO Auto-generated constructor stub
 	}
 	
 	@Override
