@@ -111,11 +111,7 @@ public class TicTacToe {
 		printBoard(gameBoard);
 	}
 
-	private static void clearScreen() {
-		// TODO Auto-generated method stub
-		System.out.printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"); // clear screen
-	}
-
+	
 	public static void gameSetup() {
 		System.out.println("------------------------------------------------");
 		System.out.println("Select Game Mode: Single [1] or Multi Player [2]");
@@ -205,6 +201,11 @@ public class TicTacToe {
 		System.out.println("  Round"+" " + round);
 		System.out.println("===========");
 		
+	}
+
+	private static void clearScreen() {
+		// TODO Auto-generated method stub
+		System.out.printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"); // clear screen
 	}
 	
 }
